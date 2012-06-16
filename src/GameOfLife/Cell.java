@@ -2,16 +2,18 @@ package GameOfLife;
 
 /**
  * Structure of cell. Contains coordinates x and y.
+ * 
  * @author Artur
- *
+ * 
  */
 public final class Cell {
-	
+
 	public int x;
 	public int y;
-	
+
 	/**
 	 * Constructor.
+	 * 
 	 * @param x
 	 * @param y
 	 */
@@ -31,21 +33,21 @@ public final class Cell {
 
 	@Override
 	public boolean equals(Object obj) {
-		if(this == obj)
-	        return true;
-	    
-		if(obj == null)
-	        return false;
-	    
-		if(getClass() != obj.getClass())
-	        return false;
-	    
+		if (this == obj)
+			return true;
+
+		if (obj == null)
+			return false;
+
+		if (getClass() != obj.getClass())
+			return false;
+
 		final Cell cell = (Cell) obj;
-		
-		if(this.x == cell.x && this.y == cell.y)
+
+		if (this.x == cell.x && this.y == cell.y)
 			return true;
 		else
-			return false;				
+			return false;
 	}
-	
+
 }
