@@ -1,14 +1,20 @@
 package GameOfLife;
 
+/**
+ * Interface to visual implementation of game.
+ * @author Artur
+ *
+ */
 public interface IBoardVisualizer {
 
     /**
      * Display current state of board on the screen.
      */
-    public void DisplayCurrentStateOfBoard();
+    public void displayCurrentStateOfBoard();
 
     /**
      * Play game in infinity loop
      */
-    public void PlayGame();
+    public void playGame();
+    
 }

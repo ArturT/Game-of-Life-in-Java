@@ -9,6 +9,11 @@ import org.junit.Test;
 import GameOfLife.Board;
 import GameOfLife.Cell;
 
+/**
+ * Basic Unit Tests
+ * @author Artur
+ *
+ */
 public class BasicUnitTests {
 
 	@BeforeClass
@@ -156,4 +161,5 @@ public class BasicUnitTests {
 
         assertNotSame(c1, c2);
     }
+	
 }
